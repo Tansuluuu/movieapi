@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000;
+
+}
+.custom-header{
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+    left: 0;
+    right: 0;
+    z-index: 990;
+}
+nav{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+header h4{
+    color: #fff;
+    font-size: 24px;
+    font-family: Cantarell;
+}
+
+.search-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+.search-wrapper input{
+    padding: 5px 0 5px 10px ;
+    border-radius: 5px 0 0 5px ;
+    border: none;
+    outline: none;
+}
+.search-wrapper button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 0px 5px 5px 0;
+    color: #fff;
+    background-color: rgba(42, 37, 218, 0.67);
+    cursor: pointer;
+
+}
